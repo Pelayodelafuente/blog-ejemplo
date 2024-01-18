@@ -1,0 +1,52 @@
+/* Empleamos estilo al titulo */
+.titulo-galeria{
+    color:black;
+    margin-left: 20px;
+    font-size: 30px;
+    border-bottom: black;
+}
+
+/* Empleamos el flex a las filas galería */
+.row{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Establecemos el ancho separación para colocar las imagenes */
+img{
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* Establecemos flex del 25% para posicionar las columnas con el mismo margen y tamaño */
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+
+.column img{
+    margin-top: 5px;
+}
+
+  
+/* Establecemos unos pequeños cambios con media query para que no se descentre y se ponga una imagen debajo de otra */
+
+  @media(max-width: 600px){
+    .column{
+      flex: 100%;
+    }
+    .titulo-galeria{
+      margin-left: 35%;
+    }
+  }
+
+  @media(max-width: 800px){
+    .column{
+      flex: 50%;
+    }
+    .titulo-galeria{
+      margin-left: 40%;
+    }
+  }

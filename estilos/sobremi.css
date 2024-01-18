@@ -1,0 +1,75 @@
+  /* Cambiamos el tamaño al título */
+  .titulo-equipos{
+    font-size: 20px;
+  }
+
+
+  /* Ponemos estilo a la lista de los equipos */
+  #equipos li {
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+    background: #424B68;
+    color: white;
+  }
+
+
+  /* Cambiamos el color y añadimos borde al nombre de los equipos */
+  #equipos h3{
+    color: #e8491d;
+    border-bottom: black 3px dotted;
+  }
+
+  
+
+  /* A partir de aquí empleamos estilos al formulario */
+  
+  .boton {
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:solid 3px;
+    border-color: black;
+    border-radius: 15%;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+  .boton:hover{
+    color: white;
+    background-color: #424B68;
+  }
+
+
+
+  /* Editamos dentro del formulario */
+  
+  .dentro-formulario {
+    padding: 20px;
+    background: #5D6C9A;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+
+  #formulario h3{
+    font-size: 20px;
+  }
+  
+
+  #formulario .area input, #formulario .area textarea {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 70px;
+  } 
+
+  
+
